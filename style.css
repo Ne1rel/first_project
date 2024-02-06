@@ -19,8 +19,33 @@ a{
     padding: 0 20px;
     position: relative;
     align-items: center;
-    background-color: green;
+    background-image: url('https://opencages.com.ua/_nuxt/img/homepage.0151b74.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.panel::after{
+    background: #0c3632;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    transition: all .25s ease;
+    width: 100%;
+}
+
+.nav{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 50px;
+    width: 100%;
+    bottom: 310px;
 }
 
 .logocon{
